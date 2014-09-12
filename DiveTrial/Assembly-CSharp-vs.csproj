@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Dive\OpenDiveSensor.cs" />
+     <Compile Include="Assets\Scripts\BubbleMovement.cs" />
+     <Compile Include="Assets\Scripts\ReverseNormal.cs" />
      <Compile Include="Assets\Scripts\Select.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">

@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Select.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ReverseNormal.cs">
     <Files>
-      <File FileName="Assets\Scripts\Select.cs" Line="15" Column="40" />
-      <File FileName="Assets\Scripts\Select.cs" Line="20" Column="2" />
+      <File FileName="Assets/ReverseNormal.cs" Line="4" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
