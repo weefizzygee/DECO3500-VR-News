@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -24,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -41,34 +40,6 @@ Global
 		$3.inheritsSet = Mono
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
-	EndGlobalSection
-
-EndGlobal
-=======
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{4A7D9510-6562-D4CB-7EEC-38BDA14ECAEE}") = "DiveTrial", "Assembly-CSharp.csproj", "{5521722F-BAA7-908E-170A-CCC5F06620EC}"
-EndProject
-Project("{4A7D9510-6562-D4CB-7EEC-38BDA14ECAEE}") = "DiveTrial", "Assembly-UnityScript.unityproj", "{32F2302E-20E2-F309-E69B-FA9F22EDF27F}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5521722F-BAA7-908E-170A-CCC5F06620EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5521722F-BAA7-908E-170A-CCC5F06620EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5521722F-BAA7-908E-170A-CCC5F06620EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5521722F-BAA7-908E-170A-CCC5F06620EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32F2302E-20E2-F309-E69B-FA9F22EDF27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32F2302E-20E2-F309-E69B-FA9F22EDF27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32F2302E-20E2-F309-E69B-FA9F22EDF27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32F2302E-20E2-F309-E69B-FA9F22EDF27F}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
@@ -90,4 +61,3 @@ Global
 	EndGlobalSection
 
 EndGlobal
->>>>>>> 6f3ca8ce1748acd3bbcb75f450025c589f04ce4c
