@@ -1,13 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\GameScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../untitled folder/DiveTrial/Assets/Scripts/BubbleMovement.cs">
     <Files>
-      <File FileName="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\MainMenuScript.cs" Line="42" Column="3" />
-      <File FileName="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\GameScript.cs" Line="257" Column="25" />
-      <File FileName="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\PlayerShipScript.cs" Line="1" Column="1" />
-      <File FileName="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\Mover.cs" Line="1" Column="1" />
-      <File FileName="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\bulletScript.cs" Line="1" Column="1" />
-      <File FileName="..\..\daredevilgaming\SpaceCOG Client\Assets\Scripts\enemyScript.cs" Line="1" Column="1" />
+      <File FileName="../../untitled folder/DiveTrial/Assets/Scripts/BubbleMovement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
