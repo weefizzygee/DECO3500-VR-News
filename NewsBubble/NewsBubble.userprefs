@@ -4,11 +4,9 @@
   <MonoDevelop.Ide.Workbench />
 =======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayNews4.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Vote.js">
     <Files>
-      <File FileName="Assets/Scripts/PlayNews2.js" Line="11" Column="14" />
-      <File FileName="Assets/Scripts/PlayNews3.js" Line="11" Column="14" />
-      <File FileName="Assets/Scripts/PlayNews4.js" Line="11" Column="14" />
+      <File FileName="Assets/Scripts/Vote.js" Line="18" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
 >>>>>>> origin/master
