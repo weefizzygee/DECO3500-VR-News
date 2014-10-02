@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayNews1.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayNews4.js">
     <Files>
-      <File FileName="Assets/Scripts/PlayNews1.js" Line="3" Column="30" />
+      <File FileName="Assets/Scripts/PlayNews2.js" Line="11" Column="14" />
+      <File FileName="Assets/Scripts/PlayNews3.js" Line="11" Column="14" />
+      <File FileName="Assets/Scripts/PlayNews4.js" Line="11" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
