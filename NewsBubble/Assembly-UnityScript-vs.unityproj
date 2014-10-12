@@ -53,7 +53,9 @@
      <Compile Include="Assets\Scripts\PlayNews2.js" />
      <Compile Include="Assets\Scripts\PlayNews3.js" />
      <Compile Include="Assets\Scripts\PlayNews4.js" />
+     <Compile Include="Assets\Scripts\SingleNews.js" />
      <Compile Include="Assets\Scripts\Vote.js" />
+     <Compile Include="Assets\Scripts\voteArticle.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
