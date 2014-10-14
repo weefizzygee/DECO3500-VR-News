@@ -15,6 +15,6 @@ function OnMouseDown () {
 }
 
 function OnGUI () {
-	GUI.Label(Rect(480,440,160,40), "Like: " + PlayerPrefs.GetInt("vote"));
-	GUI.Label(Rect(1120,440,160,40), "Like: " + PlayerPrefs.GetInt("vote"));
+	GUI.Label(Rect(540,50,160,40), "Like: " + PlayerPrefs.GetInt("vote"));
+	GUI.Label(Rect(1180,50,160,40), "Like: " + PlayerPrefs.GetInt("vote"));
 }
