@@ -10,17 +10,9 @@ public class Select : MonoBehaviour {
 	public Image AfricaBorder;
 	public Image AsiaBorder;
 	public Image AustraliaBorder;
-	// Use this for initialization
-	void Start () {
-	
-	}
 
-	void OnEnable() {
-		MagnetSensor.OnCardboardTrigger += ShootSelectRay;
-	}
-
-	void OnDisable() {
-		MagnetSensor.OnCardboardTrigger -= ShootSelectRay;
+	void OnCardBoardTrigger() {
+		ShootSelectRay();
 	}
 
 	// Update is called once per frame
@@ -34,32 +26,38 @@ public class Select : MonoBehaviour {
 			GameObject hitObject = hit.transform.gameObject;
 			if (hitObject.tag == "America") {
 				Color color = AmericaBorder.color;
-				color.a = 255f;
+				color = Color.cyan;
+				color.a = 170f;
 				AmericaBorder.color = color;
 			}
 			else if (hitObject.tag == "S.America") {
 				Color color = SAmericaBorder.color;
-				color.a = 255f;
+				color = Color.cyan;
+				color.a = 170f;
 				SAmericaBorder.color = color;
 			}
 			else if (hitObject.tag == "Europe") {
 				Color color = EuropeBorder.color;
-				color.a = 255f;
+				color = Color.cyan;
+				color.a = 170f;
 				EuropeBorder.color = color;
 			}
 			else if (hitObject.tag == "Africa") {
 				Color color = AfricaBorder.color;
-				color.a = 255f;
+				color = Color.cyan;
+				color.a = 170f;
 				AfricaBorder.color = color;
 			}
 			else if (hitObject.tag == "Asia") {
 				Color color = AsiaBorder.color;
-				color.a = 255f;
+				color = Color.cyan;
+				color.a = 170f;
 				AsiaBorder.color = color;;
 			}
 			else if (hitObject.tag == "Australia") {
 				Color color = AustraliaBorder.color;
-				color.a = 255f;
+				color = Color.cyan;
+				color.a = 170f;
 				AustraliaBorder.color = color;
 			}
 			Debug.Log(hitObject.tag);
@@ -76,7 +74,7 @@ public class Select : MonoBehaviour {
 	}
 
 	void ShootSelectRay() {
-		// On magnet click, do stuff
+		// Shoot a ray and perform certain actions when hitting certain objects
 		Ray ray = new Ray (transform.position, transform.forward);
 		RaycastHit hit;
 		Debug.DrawRay (transform.position, transform.forward * 50);
