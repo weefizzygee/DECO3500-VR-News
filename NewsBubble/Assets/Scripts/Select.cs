@@ -11,10 +11,6 @@ public class Select : MonoBehaviour {
 	public Image AsiaBorder;
 	public Image AustraliaBorder;
 
-	void OnCardBoardTrigger() {
-		ShootSelectRay();
-	}
-
 	// Update is called once per frame
 	void Update () {
 		// When camera hovers over an interactable object, something happens
@@ -70,22 +66,6 @@ public class Select : MonoBehaviour {
 			AfricaBorder.color = color;
 			AsiaBorder.color = color;
 			AustraliaBorder.color = color;
-		}
-	}
-
-	void ShootSelectRay() {
-		// Shoot a ray and perform certain actions when hitting certain objects
-		Ray ray = new Ray (transform.position, transform.forward);
-		RaycastHit hit;
-		Debug.DrawRay (transform.position, transform.forward * 50);
-		if(Physics.Raycast(ray, out hit, 5000000)) 
-		{
-			GameObject hitObject = hit.transform.gameObject;
-			if (hitObject.tag == "America" || hitObject.tag == "S.America"
-			    || hitObject.tag == "Europe"|| hitObject.tag == "Africa"
-			    || hitObject.tag == "Asia"|| hitObject.tag == "Australia") {
-				Application.LoadLevel("Dashboard");
-			}
 		}
 	}
 }
