@@ -22,7 +22,6 @@ public class Select : MonoBehaviour {
 		// When camera hovers over an interactable object, something happens
 		Ray ray = new Ray (transform.position, transform.forward);
 		RaycastHit hit;
-		Debug.DrawRay (transform.position, transform.forward * 50);
 		Color blueButton = new Color(75, 113, 216, 150);
 		if (Application.loadedLevelName.Equals("WorldViewScene")) {
 			if (Physics.Raycast (ray, out hit, 5000000)) {
@@ -80,10 +79,14 @@ public class Select : MonoBehaviour {
 					color.a = 255f;
 					ToTopStoriesButton.color = color;
 				} else {
-					ToWorldViewButton.color = blueButton;
-					ToTopStoriesButton.color = blueButton;
+					ToWorldViewButton.color = Color.white;
+					ToTopStoriesButton.color = Color.white;
 				}
+			} else {
+				ToWorldViewButton.color = Color.white;
+				ToTopStoriesButton.color = Color.white;
 			}
+
 		} else if (Application.loadedLevelName.Equals ("Top_Stories")) {
 			if (Physics.Raycast (ray, out hit, 5000000)) {
 				GameObject hitObject = hit.transform.gameObject;

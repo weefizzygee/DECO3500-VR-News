@@ -30,18 +30,22 @@ public class ShootRay : MonoBehaviour {
 				Application.LoadLevel("WorldViewScene");
 			} else if (hitObject.tag == "ToMoreStories") {
 				Application.LoadLevel("More_Stories");
-			}else if (hitObject.tag == "ToDashBoard") {
+			} else if (hitObject.tag == "ToDashBoard") {
 				Application.LoadLevel("DashBoard");
-			}else if (hitObject.tag == "ToTopStories") {
+			} else if (hitObject.tag == "ToTopStories") {
 				Application.LoadLevel("Top_Stories");
-			}else if (hitObject.tag == "SingleArticle") {
+			} else if (hitObject.tag == "SingleArticle") {
 				Application.LoadLevel("Single_Article");
-			}else if (hitObject.tag == "SingleNews") {
+			} else if (hitObject.tag == "SingleNews") {
 				Application.LoadLevel("Single_News");
-			}else if (hitObject.tag == "LikeButton") {
-				// Do like
-			}else if (hitObject.tag == "SaveButton") {
-				// Do save
+			} else if (hitObject.tag == "LikeButton") {
+				hitObject.SendMessage("OnMouseDown");
+			} else if (hitObject.tag == "SaveButton") {
+				hitObject.SendMessage("OnMouseDown");
+			} else if (hitObject.tag == "TopNews") {
+				hitObject.SendMessage("OnMouseDown");
+			} else if (hitObject.tag == "Pause") {
+				hitObject.SendMessage("OnMouseDown");
 			}
 		}
 	}

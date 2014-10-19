@@ -52,7 +52,10 @@
      <Compile Include="Assets\Scripts\ReverseNormal.cs" />
      <Compile Include="Assets\Scripts\Select.cs" />
      <Compile Include="Assets\Scripts\ShootRay.cs" />
+     <Compile Include="Assets\Scripts\escapeApplication.cs" />
      <Compile Include="Assets\Scripts\viewOnClick.cs" />
+     <Compile Include="Assets\Scripts\voteArticle.cs" />
+     <Compile Include="Assets\Scripts\voteNews.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
